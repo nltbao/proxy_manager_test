@@ -1,1 +1,1 @@
-web: docker run -p $PORT:22999 luminati/luminati-proxy proxy-manager
+web: docker run -e PORT=$PORT -p $PORT:22999 luminati/luminati-proxy proxy-manager
